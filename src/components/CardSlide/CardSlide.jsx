@@ -15,15 +15,15 @@ const CardSlide = () => {
     }
 
   return (
-    <StyledCardSlide
-    onMouseOver={openList}
-    onMouseOut = {closeList}>
+    <StyledCardSlide >
         <ImgSlide 
         src={img1}
         alt="Recipes Picture"
         />
 
         <RecipeDescription
+        onMouseOver={openList}
+        onMouseOut = {closeList}
         isOpen={isOpen}>
         <TimeWrapp>
             <RecipeTime>
