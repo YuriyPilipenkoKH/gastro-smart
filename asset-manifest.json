@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/gastro-smart/static/css/main.073c9b0a.css",
-    "main.js": "/gastro-smart/static/js/main.625fb13c.js",
-    "static/js/787.333f6e55.chunk.js": "/gastro-smart/static/js/787.333f6e55.chunk.js",
+    "main.css": "/gastro-smart/static/css/main.2caf2cb4.css",
+    "main.js": "/gastro-smart/static/js/main.1c5d4197.js",
     "static/media/logo.svg": "/gastro-smart/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/gastro-smart/index.html",
-    "main.073c9b0a.css.map": "/gastro-smart/static/css/main.073c9b0a.css.map",
-    "main.625fb13c.js.map": "/gastro-smart/static/js/main.625fb13c.js.map",
-    "787.333f6e55.chunk.js.map": "/gastro-smart/static/js/787.333f6e55.chunk.js.map"
+    "main.2caf2cb4.css.map": "/gastro-smart/static/css/main.2caf2cb4.css.map",
+    "main.1c5d4197.js.map": "/gastro-smart/static/js/main.1c5d4197.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.625fb13c.js"
+    "static/css/main.2caf2cb4.css",
+    "static/js/main.1c5d4197.js"
   ]
 }
