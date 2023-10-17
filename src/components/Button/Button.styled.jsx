@@ -43,3 +43,13 @@ export const StyledBurgerButton = styled.button`
       transition: all 0.4s ease; 
 
 `
+export const StyledArrowButton = styled.button`
+  position: relative;
+  overflow: hidden;
+
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+`;
+
