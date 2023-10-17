@@ -1,0 +1,6 @@
+{
+  "recipes_id" : "recipes",
+  "ingredients_id": "ingredients",
+  "quantity_ingredients": "",
+  "units":["гр", "кг", "л", "милл", "шт"]
+}
