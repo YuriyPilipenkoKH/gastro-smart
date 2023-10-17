@@ -34,3 +34,12 @@ export const StyledFlatButton = styled.button`
 
 `
 
+export const StyledBurgerButton = styled.button`
+       padding: 0;
+       outline: none;
+       border:none;
+       background-color: transparent;
+       cursor: pointer; 
+      transition: all 0.4s ease; 
+
+`
