@@ -8,12 +8,14 @@ export const MainHeader= styled.header.withConfig({
       isPropValid(prop) &&
       prop !== 'theme'
 })`
+display: flex;
   position: relative;
   top: 0;
   left: 0;
   width: 320px;
   height: 126px;
   display: grid;
+  grid-template-columns: 100px auto 250px;
   place-items: center;
   padding: 20px 16px 20px;
   background-color: transparent;
@@ -29,25 +31,39 @@ export const MainHeader= styled.header.withConfig({
     }
 
 &>button.mobile-menu{
+  
+ &>div{
+ 
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  &>svg{
+    width:2em;
+  height:2em;
+  }
 
-  @media screen and (min-width: 768px) {
-    display: none;
+ }
+  /* @media screen and (min-width: 768px) { */
+    /* display: none;
     }
 
-     &> svg {
+     /* &> svg {
         transition:  all 1s ease-in-out;
         color: var(--text-color);
         scale: 2;
-        }
+        } */
 
-    &:hover{
+    /* &:hover{
         background-color: #eee5;
         &> svg {
             transition:  all 1s ease-in-out;
             fill:  ${({ theme }) => theme === 'light' ? "var(--white)" : "var(--black)"};
         }
-    }
-    }
+    } */
+    } 
 
 
 `
@@ -110,7 +126,7 @@ export const MainFooter = styled.footer`
   font-size: 20px;
   font-weight: 600;
   color:  var(--text-color);
-  border-top: 1px solid #222;
+  
   background-color: transparent;
   transition: color 1s ease-in-out, fill 1s ease-in-out;
 
