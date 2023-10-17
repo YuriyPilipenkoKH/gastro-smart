@@ -4,7 +4,7 @@ export const MainContainer = styled.div`
     display: grid;
     place-items: center;
     /* gap: 2em; */
-    grid-template-rows: 126px auto 90px;
+    grid-template-rows: 126px auto 337px;
   
     background-color: var(--background-color);
     margin: 0 auto;
@@ -13,9 +13,9 @@ export const MainContainer = styled.div`
     transition: all 1s ease-in-out;
 
 
-    @media screen and (min-width: 768px) {
+    /* @media screen and (min-width: 768px) {
        width: 768px;
-    }
+    } */
 
     @media screen and (min-width: 1280px) {
         min-width: 100%;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const WrapperCard = styled.div`
   display: grid;
-  grid-template-rows: 21px 120px 120px 120px 120px;
+  grid-template-rows:120px 120px 120px 120px;
   gap:16px;
 
   &>.wrap-line{

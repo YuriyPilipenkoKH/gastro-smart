@@ -9,4 +9,5 @@ export const LineDishesWrapper = styled.div`
   align-items: center;
   justify-content: center;
   gap: 44px;
+  margin-bottom: 80px;
 `;

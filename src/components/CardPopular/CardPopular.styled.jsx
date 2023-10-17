@@ -10,6 +10,8 @@ export const WrapperCard = styled.div`
   display: flex;
   flex-direction: column;
   gap:16px;
+  align-items: start;
+    
 
   &> div {
   display: flex;
@@ -25,17 +27,11 @@ gap:10px;
 }
 
 `
-export const Line = styled.div`
-   width: 100%;
-  height: 4px;
-  border-top: 1px solid #D2DDE6;
-  border-bottom: 1px solid #D2DDE6;
-`
 
 export const WrapperImg = styled.div`
    &> img{
     border-radius:4px;
-    height:277px;
+    height:281px;
    }
 `
 export const WrapperSpan = styled.div`

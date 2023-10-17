@@ -1,21 +1,11 @@
-import CardSlide from "components/CardSlide/CardSlide";
+import { Content } from "components/Content/Content";
 import { HomeWrapper } from "./Page.styled";
-import { LineDishes } from "components/LineDishes/LineDishes";
-import { SectionPopularRecentlyAdded } from "components/SectionPopularRecentlyAdded/SectionPopularRecentlyAdded";
-import { SearchRecipes } from "components/SearchRecipes/SearchRecipes";
+
 
 export default function Home() {
-
-
-    return (
-      <HomeWrapper  >
-       <SearchRecipes/>
-   
-         <CardSlide/>
-         <LineDishes/>
-         <SectionPopularRecentlyAdded/>
-      
-
-      </HomeWrapper>
-    );
-  }
+  return (
+    <HomeWrapper className="homeWrapper">
+      <Content className="content" />
+    </HomeWrapper>
+  );
+}

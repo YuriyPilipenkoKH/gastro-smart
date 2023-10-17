@@ -1,7 +1,7 @@
 
-import { Section, SectionFooterButton, SectionFooterCaption, SectionFooterText, SectionFooterTitle } from "./SectionFooter.styled"
+import { Section, SectionFooterButton, SectionFooterCaption, SectionFooterText, SectionFooterTitle } from "./SectionPlan.styled"
 
-export const SectionFooter = ( )=> {
+export const SectionPlan = ( )=> {
   return (
 <Section className="section">
   <SectionFooterTitle className="section-footer__title">Try to plan your recipe personally.</SectionFooterTitle>

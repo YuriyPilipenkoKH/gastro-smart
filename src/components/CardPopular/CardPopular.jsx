@@ -4,10 +4,8 @@ import chak_b from "../../images/imgslides/chak-chak-b.jpg";
 
 
 import {
-  Line,
   WrapSlogan,
   WrapStar,
-  
   WrapperCard,
   WrapperImg,
   WrapperSpan,
@@ -15,24 +13,23 @@ import {
 
 export const CardPopular = () => {
   return (
-    <WrapperCard className="wrapper-card">
-      <div>
-        <p>Popular</p>
-        <Line></Line>
-      </div>
-      <WrapperImg className="wrapper-img">
-        <img src={chak_b} alt="chak" />
-      </WrapperImg>
-      <WrapperSpan className="wrapper-span">
-        <div>
-          {iconCkal}
-          <span>30 minutes</span>
-        </div>
-        <div>
-          {iconTime}
-          <span>716 kcal</span>
-        </div>
-      </WrapperSpan>
+        
+      <WrapperCard className="wrapper-card">
+      
+        <WrapperImg className="wrapper-img">
+          <img src={chak_b} alt="chak" />
+        </WrapperImg>
+        <WrapperSpan className="wrapper-span">
+          <div>
+            {iconCkal}
+            <span>30 minutes</span>
+          </div>
+          <div>
+            {iconTime}
+            <span>716 kcal</span>
+          </div>
+        </WrapperSpan>
+    
 
       <p>
         The Cutest Roundest Pancake Balls You’ll Ever Make and Eat: Danish
@@ -57,5 +54,6 @@ export const CardPopular = () => {
         </div>
       </WrapSlogan>
     </WrapperCard>
+    
   );
 };

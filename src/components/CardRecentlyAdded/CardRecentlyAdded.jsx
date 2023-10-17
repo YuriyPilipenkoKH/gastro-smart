@@ -4,10 +4,7 @@ import chak_s from "../../images/imgslides/chak-chak-s.jpg";
 export const CardRecentlyAdded = () => {
   return (
     <WrapperCard className="wrapper-card">
-      <div  className="wrap-line">
-        <p>Recently added</p>
-        <Line></Line>
-      </div>
+     
         <Wrap  className="wrap">
           
             <img src={chak_s} alt="chak" />
