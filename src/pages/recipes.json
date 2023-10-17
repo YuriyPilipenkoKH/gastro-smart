@@ -5,8 +5,8 @@
   "description_recipes": "Описание приготовления: Салат «Церарь» имеет множество вариантов, некоторые кладут в него помидоры, некоторые — оливки и кусочки лимона, некоторые – креветки и другие морепродукты. Но обязательными ингредиентами этого салата являются курица и яйцо. Яркость блюду придают листья салата. Чтобы еще более разнообразить вкус и добавить цветов, я также кладу в салат кусочки помидоров. Очень важной является заправка салата «Цезарь», ее правильное приготовление, наверное, значит больше, чем состав самого салата. Заправка для салата «Цезарь» действительно уникальная и оригинальная, она состоит из свежего яйца, лимонного сока, чеснока, горчицы, оливкового масла или вустерского соуса. В наше время очень редко готовят заправку для салата «Цезарь» именно с яйцом, все чаще используют лишь лимонный сок, горчицу и оливковое масло. Именно такой я предлагаю вариант, как приготовить салат «Цезарь» с курицей и сухариками.",
   "cooking_time": "30 ",
   "kilocalories": "49",
-  "url_img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696676047/gastro-smart/salat/b3vx0m96am3x189p8pou.jpg",
-  "url_img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696676477/gastro-smart/salat/ylpuusrelaftjcforo3a.jpg"
+  "url-img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696676047/gastro-smart/salat/b3vx0m96am3x189p8pou.jpg",
+  "url-img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696676477/gastro-smart/salat/ylpuusrelaftjcforo3a.jpg"
 },
 {
   "id": "2",
@@ -14,8 +14,8 @@
   "description_recipes": "Описание приготовления: Давайте приготовим самое популярное блюдо в мире - Салат Цезарь классический рецепт был придуман итальянским поваром Цезарем Кардини, который владел несколькими ресторанчиками в Мексиканском городе Тихуана. Салат Цезарь стал очень популярен по всему миру благодаря простоте приготовления и незабываемому вкусу. Делюсь классическим рецептом приготовления - теперь вы всегда будете знать как приготовить салат ",
   "cooking_time": "20",
   "kilocalories": "137",
-  "url_img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696676529/gastro-smart/salat/n0jtkl8f9jzncg4w21pg.jpg",
-  "url_img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696676603/gastro-smart/salat/bezuhwqeqx8vw57cdywh.jpg"
+  "url-img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696676529/gastro-smart/salat/n0jtkl8f9jzncg4w21pg.jpg",
+  "url-img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696676603/gastro-smart/salat/bezuhwqeqx8vw57cdywh.jpg"
 },
 {
   "id": "3",
@@ -23,8 +23,8 @@
   "description_recipes": "Описание приготовления: Все ингредиенты данного салата прекрасно сочетаются и дополняют друг друга, поэтому салат получается отменным. Не будем тянуть с готовкой этого лакомства и приступим к приготовлению прямо сейчас! Удачи! ",
   "cooking_time": "40",
   "kilocalories": "130",
-  "url_img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696675876/gastro-smart/salat/f9neidk2wmrd2d0lwb8u.jpg",
-  "url_img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696675966/gastro-smart/salat/qh1vfigo7ukkjxwoti9k.jpg"
+  "url-img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696675876/gastro-smart/salat/f9neidk2wmrd2d0lwb8u.jpg",
+  "url-img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696675966/gastro-smart/salat/qh1vfigo7ukkjxwoti9k.jpg"
 },
 {
   "id": "4",
@@ -32,8 +32,8 @@
   "description_recipes": "Описание приготовления: Все ингредиенты данного салата прекрасно сочетаются и дополняют друг друга, поэтому салат получается отменным. Не будем тянуть с готовкой этого лакомства и приступим к приготовлению прямо сейчас! Удачи! ",
   "cooking_time": "20",
   "kilocalories": "125",
-  "url_img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696676663/gastro-smart/salat/g4hytebhqvzzh2j3za6h.jpg",
-  "url_img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696676696/gastro-smart/salat/ugpes9pp2svwqwgctbmj.jpg"
+  "url-img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696676663/gastro-smart/salat/g4hytebhqvzzh2j3za6h.jpg",
+  "url-img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696676696/gastro-smart/salat/ugpes9pp2svwqwgctbmj.jpg"
 },
 {
   "id": "5",
@@ -41,8 +41,8 @@
   "description_recipes": "Описание приготовления: Все ингредиенты данного салата прекрасно сочетаются и дополняют друг друга, поэтому салат получается отменным. Не будем тянуть с готовкой этого лакомства и приступим к приготовлению прямо сейчас! Удачи! ",
   "cooking_time": "10",
   "kilocalories": "145",
-  "url_img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696676767/gastro-smart/salat/mr2efgczmpr3wusa50im.jpg",
-  "url_img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696676815/gastro-smart/salat/lskvkfqxpmtm8emhbjgv.jpg"
+  "url-img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696676767/gastro-smart/salat/mr2efgczmpr3wusa50im.jpg",
+  "url-img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696676815/gastro-smart/salat/lskvkfqxpmtm8emhbjgv.jpg"
 },
 {
   "id": "6",
@@ -50,8 +50,8 @@
   "description_recipes": "Описание приготовления: Готовится печеночный торт очень легко и просто. Печень я чаще всего беру говяжью, она более нежная и не горчит, но вкусным получается блюдо и со свиной печенью. Уверяю, печеночный торт не будет таким вкусным без прослойки из луково-морковной пассеровки, она просто прекрасно дополняет вкус блюда и делает его еще более насыщенным. А аромат какой! Я готовлю печеночный торт на каждый праздник, это очень удобно – с вечера пожарила все блины, а утром приготовила пассеровку и перемазала торт. Кстати, если вы придерживаетесь правильного питания, то смело можете заменять майонез на сметану – очень вкусно. Уверена, вам обязательно понравится мой рецепт, как приготовить печеночный торт, и он станет вашим любимым. ",
   "cooking_time": "140",
   "kilocalories": "188",
-  "url_img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677188/gastro-smart/meat/qckezp7jqpabhknlzppd.jpg",
-  "url_img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677236/gastro-smart/meat/o02f46grwwqnkmty0m46.jpg"
+  "url-img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677188/gastro-smart/meat/qckezp7jqpabhknlzppd.jpg",
+  "url-img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677236/gastro-smart/meat/o02f46grwwqnkmty0m46.jpg"
 },
 {
   "id": "7",
@@ -59,8 +59,8 @@
   "description_recipes": "Описание приготовления: Настоящий плов готовится из баранины и с добавлением множества ароматных специй. Но не все любят баранину, да и достать хорошее мясо не всегда удается. А плова хочется... Так давайте же приготовим плов из привычной нам свинины. И получится он у нас тоже вкусным, ароматным и рассыпчатым. Берите на заметку рецепт! ",
   "cooking_time": "120",
   "kilocalories": "820",
-  "url_img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677292/gastro-smart/meat/i7qgpwedh0xay6dkc2av.jpg",
-  "url_img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677327/gastro-smart/meat/kzcraskmcj1zifjjlskv.jpg"
+  "url-img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677292/gastro-smart/meat/i7qgpwedh0xay6dkc2av.jpg",
+  "url-img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677327/gastro-smart/meat/kzcraskmcj1zifjjlskv.jpg"
 },
 {
   "id": "8",
@@ -68,8 +68,8 @@
   "description_recipes": "Описание приготовления: Делюсь простым рецептом приготовления свинины в духовке. Когда нет времени на приготовление каких-то сложных кулинарных изысков, этот простой рецепт свинины в духовке меня всегда спасает - минимум усилий, максимально вкусный и интересный результат. Мясо получается очень сочным и нежным. ",
   "cooking_time": "180",
   "kilocalories": "151",
-  "url_img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677538/gastro-smart/meat/tocccticzqljsx1dyhzp.jpg",
-  "url_img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677586/gastro-smart/meat/omqoqxitf7rjdepxjcdl.jpg"
+  "url-img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677538/gastro-smart/meat/tocccticzqljsx1dyhzp.jpg",
+  "url-img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677586/gastro-smart/meat/omqoqxitf7rjdepxjcdl.jpg"
 },
 {
   "id": "9",
@@ -77,8 +77,8 @@
   "description_recipes": "Описание приготовления: Говядина в маринаде из водки — это отличная закуска на праздничный стол. Такая нарезка точно украсит любое торжество. Как правильно приготовить говядину, маринованную в водке я с вами поделюсь.",
   "cooking_time": "3420",
   "kilocalories": "287",
-  "url_img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677368/gastro-smart/meat/bp3exyvanwl03rdobdpy.jpg",
-  "url_img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677427/gastro-smart/meat/plb7jdbvcmrmco0fdiiu.jpg"
+  "url-img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677368/gastro-smart/meat/bp3exyvanwl03rdobdpy.jpg",
+  "url-img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677427/gastro-smart/meat/plb7jdbvcmrmco0fdiiu.jpg"
 },
 {
   "id": "9",
@@ -86,8 +86,8 @@
   "description_recipes": "Описание приготовления: Простой рецепт шашлыка в духовке в банке я переняла еще от своей мамы. Универсальность этого рецепта заключается в том, что для шашлыка можно использовать любое мясо. На выбор: свининка, телятина, индейка, филе курицы, разве что говядина не очень вкусная получается, хотя возможно вам удастся вкусно приготовить в банке и ее. Мариновать также можно по вашему любимому рецепту. Я вашему вниманию представлю свой рецепт маринада, однако при желании можете мариновать так, как вам больше нравится. Желаю удачи :)",
   "cooking_time": "180",
   "kilocalories": "287",
-  "url_img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677624/gastro-smart/meat/d0dx2ehzkdtxguocw6cn.jpg",
-  "url_img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677661/gastro-smart/meat/husuosvoeuvumnzdkqsy.jpg"
+  "url-img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677624/gastro-smart/meat/d0dx2ehzkdtxguocw6cn.jpg",
+  "url-img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677661/gastro-smart/meat/husuosvoeuvumnzdkqsy.jpg"
 },
 {
   "id": "10",
@@ -95,8 +95,8 @@
   "description_recipes": "Чак-чак считается классическим блюдом татарской национальной кухни. Обычно Чак-чак готовит мама невесты на свадьбу, а затем продает гостям за любую сумму денег. Уважаемых гостей также встречают у порога с чак-чаком.",
   "cooking_time": "80",
   "kilocalories": "244",
-  "url_img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677828/gastro-smart/baking-cakes/m1wqdyqs3nmouswi6re1.jpg",
-  "url_img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677880/gastro-smart/baking-cakes/eyjukhpexg5qbrvgw4fs.jpg"
+  "url-img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677828/gastro-smart/baking-cakes/m1wqdyqs3nmouswi6re1.jpg",
+  "url-img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677880/gastro-smart/baking-cakes/eyjukhpexg5qbrvgw4fs.jpg"
 },
 {
   "id": "11",
@@ -104,8 +104,8 @@
   "description_recipes": "Из небольшого набора продуктов получается большая тарелка вкусной выпечки. Этот легкий и быстрый рецепт, как приготовить пончики из творога, пригодится, когда вам вдруг захочется сладкой выпечки. Такие вкусные хрустящие творожные шарики готовятся очень быстро. Вот несколько секретов, как это сделать.",
   "cooking_time": "20",
   "kilocalories": "120",
-  "url_img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677921/gastro-smart/baking-cakes/hddfubmoats5xbhzkoup.jpg",
-  "url_img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677952/gastro-smart/baking-cakes/aan9y1kuiut8xi9qoxjv.jpg"
+  "url-img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677921/gastro-smart/baking-cakes/hddfubmoats5xbhzkoup.jpg",
+  "url-img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677952/gastro-smart/baking-cakes/aan9y1kuiut8xi9qoxjv.jpg"
 },
 {
   "id": "12",
@@ -113,7 +113,7 @@
   "description_recipes": "Из небольшого набора продуктов получается большая тарелка вкусной выпечки. Этот легкий и быстрый рецепт, как приготовить пончики из творога, пригодится, когда вам вдруг захочется сладкой выпечки. Такие вкусные хрустящие творожные шарики готовятся очень быстро. Вот несколько секретов, как это сделать.",
   "cooking_time": "30",
   "kilocalories": "198",
-  "url_img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677986/gastro-smart/baking-cakes/a8fyjd8btlelv8lzj4ks.jpg",
-  "url_img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696678034/gastro-smart/baking-cakes/dsxgdefiixtkrmdb5fol.jpg"
+  "url-img_b": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696677986/gastro-smart/baking-cakes/a8fyjd8btlelv8lzj4ks.jpg",
+  "url-img_s": "https://res.cloudinary.com/doumzvqiw/image/upload/v1696678034/gastro-smart/baking-cakes/dsxgdefiixtkrmdb5fol.jpg"
 }
 ]

@@ -4,6 +4,7 @@ import {  SliderWrapper } from "./Slider.styled";
 import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md"
 
 const Slider = ({ slides }) => {
+  console.log(slides)
   const [currentIndex, setCurrentIndex] = useState(0)
   const goToPrevious =() => {
       const isFirstSlide = currentIndex === 0
@@ -28,7 +29,7 @@ return (
        onClick={goToNext}>
           <MdArrowForwardIos size={40}/>
       </ArrowButton>
-      <img src={slides[currentIndex].url} alt="slideImage" />
+      <img src={slides[currentIndex].url_img_b} alt="slideImage" />
 
   </SliderWrapper>
 )
