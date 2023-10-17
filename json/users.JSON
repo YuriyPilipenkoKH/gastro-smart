@@ -1,0 +1,8 @@
+{
+  "id": "_id",
+  "username": "username",
+  "email": "email",
+  "password": "password",
+  "token": "",
+  "roles":  ""
+}
