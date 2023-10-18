@@ -2,8 +2,10 @@ import styled from 'styled-components';
 
 export const SliderWrapper = styled.div`
     position: relative;
-    width: 376px;
+    /* width: 376px; */
     height: 494px;
+    display: flex;
+    gap: 20px;
     &>img {
     width: 376px;
     height: 494px;
@@ -18,7 +20,7 @@ export const SliderWrapper = styled.div`
     &>button.Next {
         position: absolute;
         top: 50%;
-        right: -50px;
+        right: -45px;
         transform: translate(0, -50%);
     }
 `

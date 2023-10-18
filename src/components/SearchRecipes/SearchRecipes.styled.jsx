@@ -23,6 +23,7 @@ height: 56px;
 border: none;
 outline: none;
 padding-left:16px;
+font-size: 16px;
 &::placeholder {
     padding: 0 16px 16px 24px;
   }

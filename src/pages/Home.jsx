@@ -9,16 +9,12 @@ import Slider from "components/Slider/Slider";
 
 export default function Home() {
 
-console.log('recipes',recipes)
-
     return (
       <HomeWrapper  >
        <SearchRecipes/>
          <Slider slides={recipes}/>
          <LineDishes/>
          <SectionPopularRecentlyAdded/>
-      
-
       </HomeWrapper>
     );
   }

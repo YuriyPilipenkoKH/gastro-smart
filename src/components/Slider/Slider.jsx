@@ -4,18 +4,36 @@ import {  SliderWrapper } from "./Slider.styled";
 import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md"
 
 const Slider = ({ slides }) => {
-  console.log(slides)
+  const array = slides.map((e,i) => i)
+
   const [currentIndex, setCurrentIndex] = useState(0)
+  const [indexArray, setIndexArray] = useState([0,1,2])
   const goToPrevious =() => {
-      const isFirstSlide = currentIndex === 0
-      const newIndex = isFirstSlide ? slides.length - 1  : currentIndex - 1
-      setCurrentIndex(newIndex)
+    setIndexArray(getPreviousSubarray())
+    console.log('indexArray',indexArray)
   }
   const goToNext =() => {
-      const isLastSlide = currentIndex === slides.length - 1
-      const newIndex = isLastSlide ? 0  : currentIndex + 1
-      setCurrentIndex(newIndex)
+      setIndexArray(getNextSubarray())
+      console.log('indexArray',indexArray)
   }
+  // Function to get the previous subarray and update the index
+function getPreviousSubarray() {
+  const subarray = [];
+  for (let i = 2; i >= 0; i--) {
+    subarray.push(array[(currentIndex + i) % array.length]);
+  }
+  setCurrentIndex( (currentIndex - 1 + array.length) % array.length);
+  return subarray;
+}
+  // Function to get the next subarray and update the index
+function getNextSubarray() {
+  const subarray = [];
+  for (let i = 0; i < 3; i++) {
+    subarray.push(array[(currentIndex + i) % array.length]);
+  }
+  setCurrentIndex ((currentIndex + 1) % array.length);
+  return subarray;
+}
 
 return (
   <SliderWrapper>
@@ -29,7 +47,9 @@ return (
        onClick={goToNext}>
           <MdArrowForwardIos size={40}/>
       </ArrowButton>
-      <img src={slides[currentIndex].url_img_b} alt="slideImage" />
+      <img src={slides[indexArray[0]].url_img_b} alt="slideImage" />
+      <img src={slides[indexArray[1]].url_img_b} alt="slideImage" />
+      <img src={slides[indexArray[2]].url_img_b} alt="slideImage" />
 
   </SliderWrapper>
 )
