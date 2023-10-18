@@ -2,6 +2,7 @@ import { ArrowButton } from "components/Button/Button";
 import { useState } from "react";
 import {  SliderWrapper } from "./Slider.styled";
 import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md"
+import CardSlide from "components/CardSlide/CardSlide";
 
 const Slider = ({ slides }) => {
   const array = slides.map((e,i) => i)
@@ -10,11 +11,11 @@ const Slider = ({ slides }) => {
   const [indexArray, setIndexArray] = useState([0,1,2])
   const goToPrevious =() => {
     setIndexArray(getPreviousSubarray())
-    console.log('indexArray',indexArray)
+    // console.log('indexArray',indexArray)
   }
   const goToNext =() => {
       setIndexArray(getNextSubarray())
-      console.log('indexArray',indexArray)
+      // console.log('indexArray',indexArray)
   }
   // Function to get the previous subarray and update the index
 function getPreviousSubarray() {
@@ -51,9 +52,18 @@ return (
        onClick={goToNext}>
           <MdArrowForwardIos size={40}/>
       </ArrowButton>
-      <img src={slides[indexArray[0]].url_img_b} alt="slideImage" />
+      <CardSlide 
+      slides={slides}
+      slideIndex={indexArray[0]} />
+      <CardSlide 
+      slides={slides}
+      slideIndex={indexArray[1]} />
+      <CardSlide 
+      slides={slides}
+      slideIndex={indexArray[2]} />
+      {/* <img src={slides[indexArray[0]].url_img_b} alt="slideImage" />
       <img src={slides[indexArray[1]].url_img_b} alt="slideImage" />
-      <img src={slides[indexArray[2]].url_img_b} alt="slideImage" />
+      <img src={slides[indexArray[2]].url_img_b} alt="slideImage" /> */}
 
   </SliderWrapper>
 )
