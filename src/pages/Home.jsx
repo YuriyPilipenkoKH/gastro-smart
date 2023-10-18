@@ -4,6 +4,7 @@ import { SectionPopularRecentlyAdded } from "components/SectionPopularRecentlyAd
 import { SearchRecipes } from "components/SearchRecipes/SearchRecipes";
 import recipes from '../json/recipes.json'
 import Slider from "components/Slider/Slider";
+import { SectionFooter } from "components/SectionFooter/SectionFooter";
 
 
 
@@ -15,6 +16,7 @@ export default function Home() {
          <Slider slides={recipes}/>
          <LineDishes/>
          <SectionPopularRecentlyAdded/>
+         <SectionFooter/> 
       </HomeWrapper>
     );
   }

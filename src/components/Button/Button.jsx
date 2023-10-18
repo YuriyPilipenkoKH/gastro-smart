@@ -1,7 +1,7 @@
 import { StyledArrowButton, StyledBurgerButton, StyledButton, StyledFlatButton } from "./Button.styled";
 
 export const Button = ({ children, ...props }) => {
-    return <StyledButton type='button' {...props}> {children}</StyledButton>;
+    return <StyledButton  {...props}> {children}</StyledButton>;
   };
 
 export const FlatButton = ({ children, ...props }) => {

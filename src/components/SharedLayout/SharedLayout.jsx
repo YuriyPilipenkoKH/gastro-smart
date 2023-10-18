@@ -1,8 +1,7 @@
 import { Suspense, useState } from "react";
-import { Outlet} from 'react-router-dom';
+import { Link, Outlet} from 'react-router-dom';
 import { ContactsWrapp, MainHeader, NavigationWrapp} from "./SharedLayout.styled";
 import { logoGastroSmart } from "images/icons";
-import {SectionFooter} from "../SectionFooter/SectionFooter"
 import { Navigation } from "components/Navigation/Navigation";
 import { AppBar } from "components/AppBar/AppBar";
 import { FlatButton } from "components/Button/Button";
@@ -41,18 +40,16 @@ export const SharedLayout = () => {
           </NavigationWrapp>
         <ContactsWrapp>
           <AppBar/>
-          <FlatButton
-          className ="loginBtn">Login</FlatButton>
+          <Link
+           to="/login"
+          className ="loginBtn">Login</Link>
         </ContactsWrapp>
-        
         </MainHeader>
 
           <Suspense >
             <Outlet/>
           </Suspense>
         
-        
-        <SectionFooter/>
           <MainFooter className="main-footer">
           </MainFooter>
         

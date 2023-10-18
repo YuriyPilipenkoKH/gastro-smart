@@ -81,7 +81,7 @@ display: grid;
 align-items: center;
 gap: 8px;
 
-&>button.loginBtn {
+&>a.loginBtn {
   justify-self: end;
   font-size: 20px;
   font-weight: 600;
