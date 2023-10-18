@@ -19,6 +19,7 @@ const clearInput =(e) => {
   return (
 
     <LabelSearch>Recipes
+      <span>Go to Global Search ˃</span>
       <WrapSearch>
         <InputSearch
          type="text"
