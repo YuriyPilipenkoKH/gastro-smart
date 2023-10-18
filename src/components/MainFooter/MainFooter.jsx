@@ -3,6 +3,7 @@ import {
   iconYoutube,
   iconShare,
   iconStar,
+  googleLogo,
 } from "images/icons";
 import {
   List,
@@ -21,11 +22,6 @@ import cloud from "../../images/brands/cloud.png";
 import ssl from "../../images/brands/ssl.png";
 import germany from "../../images/brands/germany.png";
 import support from "../../images/brands/support.png";
-import gg from "../../images/google/gg.png";
-import g from "../../images/google/g.png";
-import o from "../../images/google/o.png";
-import l from "../../images/google/l.png";
-import e from "../../images/google/e.png";
 
 
 
@@ -98,14 +94,9 @@ export const MainFooter = () => {
             
             <WrapperStar className="wrapper-star">
               <div>
-                <ul className="wrapper-google">
-                  <li><img className="google capital" src={gg} alt="" /></li>
-                  <li><img className="google" src={o} alt="" /></li>
-                  <li><img className="google" src={o} alt="" /></li>
-                  <li><img className="google google-g" src={g} alt="" /></li>
-                  <li><img className="google" src={l} alt="" /></li>
-                  <li><img className="google" src={e} alt="" /></li>
-                </ul>
+                <a className="wrapper-google">
+                  {googleLogo}
+                </a>
                 <WrapStarGoogle className="wrap-star__google">
                   <p>Reviews</p>
                   {iconStar}
