@@ -26,7 +26,7 @@ export const StyledForm = styled.form`
    align-content: center;
    justify-content: center;
    justify-items: start;
-   gap: 34px;
+   gap: 20px;
 
    &>button.LogBtn{
     width: 120px;

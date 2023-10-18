@@ -1,8 +1,12 @@
 import React from 'react'
+import { LogWrapper } from './Page.styled'
+import RegisterForm from 'components/RegisterForm/RegisterForm'
 
 const RegisterPage = () => {
   return (
-    <div>RegisterPage</div>
+    <LogWrapper> 
+    <RegisterForm/>
+    </LogWrapper>
   )
 }
 

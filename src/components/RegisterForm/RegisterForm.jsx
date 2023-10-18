@@ -1,24 +1,26 @@
-import { FormBG, FormContainer, FormInput, FormLabel, RegLink, StyledForm } from "./LoginForm.styled"
-import bgImage from '../../images/slider/meat.jpg'
-import { Button, FlatButton } from "components/Button/Button"
-import { Link } from "react-router-dom"
-import { useState } from "react"
-import {FaEye, FaEyeSlash} from 'react-icons/fa';
-import { useDispatch } from "react-redux"
-import logIn  from '../../redux/auth/auth-operations';
+import { Button, FlatButton } from "components/Button/Button";
+import { FormBG, FormContainer, FormInput, FormLabel, RegLink, StyledForm } from "components/LoginForm/LoginForm.styled";
+import { useState } from "react";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
+import bgImage from '../../images/slider/cereal.jpg'
+import  register  from '../../redux/auth/auth-operations';
 
-
-const LoginForm = () => {
+const RegisterForm = () => {
     const [show, setShow] = useState(false);
     const dispatch = useDispatch();
     const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
     const handleChange = ({ target: { name, value } }) => {
                           
                 switch (name) {
-                    case 'name':
-                return setName(value);   
+               case 'name':
+             return setName(value);      
+              case 'email':
+                return setEmail(value);
               case 'password':
                 return setPassword(value);
               default:
@@ -28,8 +30,9 @@ const LoginForm = () => {
         
           const handleSubmit = e => {
             e.preventDefault();
-            dispatch(logIn({ name, password }));
+            dispatch(register({ name, email, password }));
             setName('');
+            setEmail('');
             setPassword('');
           };
         
@@ -37,13 +40,20 @@ const LoginForm = () => {
   return (
     <FormContainer>
         <StyledForm onSubmit={handleSubmit}  autoComplete="on">
-            <h2>Login</h2>
-            <FormLabel > Name
+            <h2>Create Account</h2>
+            <FormLabel type="text"> Name
                 <FormInput 
-           type="text"
-           name="name"
-            value={name} 
-            onChange={handleChange}/>
+                           type="text"
+                           name="name"
+                            value={name} 
+                            onChange={handleChange}/>
+            </FormLabel>
+            <FormLabel > Email
+                <FormInput
+                     type="email"
+                     name="email"
+                     value={email}
+                     onChange={handleChange}/>
             </FormLabel>
             <FormLabel > Password
                 <FormInput
@@ -61,8 +71,8 @@ const LoginForm = () => {
         <Button 
         type='submit'
         className='LogBtn'>Submit</Button>
-        <RegLink>Don't have an account?
-             <Link  to="/register">Register</Link>
+        <RegLink>Already have an account?
+             <Link  to="/login">Login</Link>
         </RegLink>
 
         </StyledForm>
@@ -71,4 +81,6 @@ const LoginForm = () => {
   )
 }
 
-export default LoginForm
+
+
+export default RegisterForm
