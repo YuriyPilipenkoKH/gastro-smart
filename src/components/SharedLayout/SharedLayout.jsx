@@ -8,17 +8,26 @@ import { FlatButton } from "components/Button/Button";
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { MainFooter } from "components/MainFooter/MainFooter";
 import MobileMenu from "components/MobileMenu/MobileMenu";
-
+import { useAuth } from "hooks/useAuth";
+import { useDispatch } from "react-redux";
+import  logOut  from '../../redux/auth/auth-operations';
 
 
 
 
 export const SharedLayout = () => {
+  const dispatch = useDispatch();
   const [isOpen, setIsOpen] = useState(false);
-
+  const { isLoggedIn} = useAuth()
   const toggleMenu = () => {
     setIsOpen(!isOpen);
 };
+
+const quit =() => {
+  setIsOpen(!isOpen)
+  dispatch(logOut())
+}
+
 
     return (
    <>
@@ -40,9 +49,15 @@ export const SharedLayout = () => {
           </NavigationWrapp>
         <ContactsWrapp>
           <AppBar/>
-          <Link
+
+          {!isLoggedIn 
+          ?  <Link
            to="/login"
           className ="loginBtn">Login</Link>
+          :  <FlatButton 
+            onClick={quit}
+           className ="logoutBtn">Logout</FlatButton>}
+
         </ContactsWrapp>
         </MainHeader>
 
