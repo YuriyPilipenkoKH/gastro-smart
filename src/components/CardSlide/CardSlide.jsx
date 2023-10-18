@@ -1,7 +1,4 @@
 import { HiddenText, ImgSlide, Rating, RecipeDescription, RecipeTime, StarsWrapp, StyledCardSlide, TextWrapp, TimeWrapp } from "./CardSlide.styled"
-import img1 from '../../images/slider/pancake.jpg'
-// import img2 from '../../images/slider/meat.jpg'
-// import img3 from '../../images/slider/cereal.jpg'
 import { iconCalories, iconStar, iconTime } from "images/icons"
 import { useState } from "react"
 
