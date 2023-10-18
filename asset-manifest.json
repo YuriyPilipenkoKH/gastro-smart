@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/gastro-smart/static/css/main.2caf2cb4.css",
-    "main.js": "/gastro-smart/static/js/main.df8f3acb.js",
-    "static/media/pancake.jpg": "/gastro-smart/static/media/pancake.1e2512d968c0880773ac.jpg",
+    "main.css": "/gastro-smart/static/css/main.04949aaa.css",
+    "main.js": "/gastro-smart/static/js/main.dcdb5766.js",
+    "static/media/fonMobileMenu.jpg": "/gastro-smart/static/media/fonMobileMenu.34bf4508797c4e1105a8.jpg",
+    "static/media/chak-chak-b.jpg": "/gastro-smart/static/media/chak-chak-b.1f81ec1a78ef422044d8.jpg",
+    "static/media/ssl.png": "/gastro-smart/static/media/ssl.5e7785a5c88b56d0a54b.png",
     "index.html": "/gastro-smart/index.html",
-    "main.2caf2cb4.css.map": "/gastro-smart/static/css/main.2caf2cb4.css.map",
-    "main.df8f3acb.js.map": "/gastro-smart/static/js/main.df8f3acb.js.map"
+    "main.04949aaa.css.map": "/gastro-smart/static/css/main.04949aaa.css.map",
+    "main.dcdb5766.js.map": "/gastro-smart/static/js/main.dcdb5766.js.map"
   },
   "entrypoints": [
-    "static/css/main.2caf2cb4.css",
-    "static/js/main.df8f3acb.js"
+    "static/css/main.04949aaa.css",
+    "static/js/main.dcdb5766.js"
   ]
 }
