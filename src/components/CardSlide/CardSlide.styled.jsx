@@ -1,7 +1,8 @@
 import isPropValid from "@emotion/is-prop-valid";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export const StyledCardSlide = styled.div`
+export const StyledCardSlide = styled(Link)`
   position: relative;  
   width: 376px;
   height: 494px;
@@ -41,7 +42,6 @@ overflow:hidden;
     text-align: left;
 }
 `;
-
 
 export const TimeWrapp = styled.div`
     height: 24px;
