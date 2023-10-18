@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/gastro-smart/static/css/main.04949aaa.css",
-    "main.js": "/gastro-smart/static/js/main.38e66e0a.js",
+    "main.js": "/gastro-smart/static/js/main.5a58aff3.js",
     "static/media/fonMobileMenu.jpg": "/gastro-smart/static/media/fonMobileMenu.34bf4508797c4e1105a8.jpg",
     "static/media/chak-chak-b.jpg": "/gastro-smart/static/media/chak-chak-b.1f81ec1a78ef422044d8.jpg",
     "static/media/ssl.png": "/gastro-smart/static/media/ssl.5e7785a5c88b56d0a54b.png",
     "index.html": "/gastro-smart/index.html",
     "main.04949aaa.css.map": "/gastro-smart/static/css/main.04949aaa.css.map",
-    "main.38e66e0a.js.map": "/gastro-smart/static/js/main.38e66e0a.js.map"
+    "main.5a58aff3.js.map": "/gastro-smart/static/js/main.5a58aff3.js.map"
   },
   "entrypoints": [
     "static/css/main.04949aaa.css",
-    "static/js/main.38e66e0a.js"
+    "static/js/main.5a58aff3.js"
   ]
 }
