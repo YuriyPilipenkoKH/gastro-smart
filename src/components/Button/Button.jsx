@@ -20,3 +20,4 @@ export const FlatButton = ({ children, ...props }) => {
   export const ArrowButton = ({ children, ...props }) => {
     return <StyledArrowButton type='button' {...props}> {children}</StyledArrowButton>;
   };
+

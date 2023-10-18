@@ -8,6 +8,7 @@ export const LabelSearch = styled.label`
   
 `
 export const WrapSearch = styled.div`
+position: relative;
 display:flex;
 align-items: center;
 justify-content: space-between;
@@ -16,6 +17,11 @@ width: 1186px;
   border: 1px solid #B9C7D2;
   border-radius: 4px;
   
+  &>button.search-cross{
+    position: absolute;
+    right: 170px;
+    top: 12px;
+  }
 `
 export const InputSearch = styled.input`
 width: 1186px;
