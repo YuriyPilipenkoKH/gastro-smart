@@ -22,7 +22,7 @@ const CardSlide = ({slides, slideIndex}) => {
         onMouseOver={openList}
         onMouseOut = {closeList}
         isOpen={isOpen}>
-        <h3> {slides[slideIndex].title_recipes}</h3>    
+            <h3> {slides[slideIndex].title_recipes}</h3>  
         <TimeWrapp>
             <RecipeTime>
                 {iconTime}

@@ -23,7 +23,7 @@ position: absolute;
 bottom: 16px;
 left: 16px;
 width: 344px;
-height:  ${({ isOpen }) => isOpen ?  "350px" : "150px"};
+height:  ${({ isOpen }) => isOpen ?  "380px" : "150px"};
 background-color: #fff;
 padding: 20px;
 border-radius: 4px;
@@ -41,6 +41,7 @@ overflow:hidden;
     text-align: left;
 }
 `;
+
 
 export const TimeWrapp = styled.div`
     height: 24px;
