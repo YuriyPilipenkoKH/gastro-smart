@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
 
 export const MainFooterWrap = styled.div`
   width: 100%;
-  height: 337px;
+  height: 333px;
   background-color: #1c5682;
 `;
 export const List = styled.ul`

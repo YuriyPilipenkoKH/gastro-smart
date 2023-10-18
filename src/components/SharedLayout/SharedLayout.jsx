@@ -22,7 +22,7 @@ export const SharedLayout = () => {
 };
 
     return (
-      <>
+   <>
         <MainHeader 
         className="main-header"
         >
@@ -51,13 +51,11 @@ export const SharedLayout = () => {
             <Outlet/>
           </Suspense>
         
-        <>
+        
         <SectionFooter/>
           <MainFooter className="main-footer">
-          
-         
-            </MainFooter>
-        </>
+          </MainFooter>
+        
         <MobileMenu isOpen={isOpen} onClose={toggleMenu} />
       </>
     )}
