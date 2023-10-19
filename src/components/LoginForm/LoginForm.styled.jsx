@@ -26,7 +26,7 @@ export const StyledForm = styled.form`
    align-content: center;
    justify-content: center;
    justify-items: start;
-   gap: 20px;
+   gap: 25px;
 
    &>button.LogBtn{
     width: 120px;
@@ -44,10 +44,14 @@ export const FormLabel = styled.label`
         right: 20px;
     }
 `
-export const FormInput = styled.input`
+export const FormInput = styled.input.withConfig({
+    shouldForwardProp: prop =>
+        isPropValid(prop)  && prop !== 'errors',
+  })`
     width: 250px;
     height: 38px;
     border: 1px solid #777;
+    border-color: ${({ errors }) => errors ?  "crimson" : "#777"};
     border-radius: 4px;
     padding: 8px;
     outline: none;
@@ -61,4 +65,11 @@ export const RegLink = styled.p`
         font-size: 20px;
         color: #0D5D81;
     }
+`
+export const ErrorWrap = styled.p`
+    color: crimson;
+    position: absolute;
+    bottom: -16px;
+    font-size: 12px;
+    font-weight: 500;
 `

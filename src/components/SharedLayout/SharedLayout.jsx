@@ -10,7 +10,7 @@ import { MainFooter } from "components/MainFooter/MainFooter";
 import MobileMenu from "components/MobileMenu/MobileMenu";
 import { useAuth } from "hooks/useAuth";
 import { useDispatch } from "react-redux";
-import  logOut  from '../../redux/auth/auth-operations';
+import  logOut  from '../../redux/auth/authOperations';
 
 
 

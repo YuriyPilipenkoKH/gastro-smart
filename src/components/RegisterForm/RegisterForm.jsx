@@ -5,7 +5,7 @@ import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import bgImage from '../../images/slider/cereal.jpg'
-import  register  from '../../redux/auth/auth-operations';
+import  register  from '../../redux/auth/authOperations';
 
 const RegisterForm = () => {
     const [show, setShow] = useState(false);

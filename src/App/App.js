@@ -1,14 +1,14 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
+import { lazy } from 'react';
 import { Container } from '../components/Container/Container';
 import { SharedLayout } from 'components/SharedLayout/SharedLayout';
-import Home from 'pages/Home';
 import PrivateRoute from 'routes/PrivateRoute';
 import PublicRoute from 'routes/PublicRoute';
-import LoginPage from 'pages/LoginPage';
-import UserPage from 'pages/UserPage';
-import RegisterPage from 'pages/RegisterPage';
 
-
+const Home = lazy(() => import('../pages/Home'));
+const RegisterPage = lazy(() => import('../pages/RegisterPage'));
+const LoginPage = lazy(() => import('../pages/LoginPage'));
+const UserPage = lazy(() => import('../pages/UserPage'));
 
 function App() {
   return (
