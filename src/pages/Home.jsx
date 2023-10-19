@@ -1,3 +1,4 @@
+
 import { Content } from "components/Content/Content";
 import { HomeWrapper } from "./Page.styled";
 

@@ -49,7 +49,7 @@ export const SharedLayout = () => {
 
     
       <>
-        <SectionPlan />
+        
           <MainFooter className="main-footer"></MainFooter>
       </>
       

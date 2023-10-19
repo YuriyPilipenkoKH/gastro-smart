@@ -3,6 +3,9 @@ import { SectionPopularRecentlyAdded } from "components/SectionPopularRecentlyAd
 import { SearchRecipes } from "components/SearchRecipes/SearchRecipes";
 import { LineDishes } from "components/LineDishes/LineDishes";
 import { ContentWrap } from "./Content.styled";
+import { SectionPopular } from "components/SectionPopular/SectionPopular";
+import { SectionPlan } from "components/SectionFooter/SectionPlan";
+import { GalleriAll } from "components/Galleri/Galleri";
 
 
 
@@ -13,6 +16,9 @@ export const Content =()  => {
       <CardSlide />
       <LineDishes />
       <SectionPopularRecentlyAdded/>
+      <SectionPopular/>
+      <GalleriAll/>
+      <SectionPlan />
       
     </ContentWrap>
       )
