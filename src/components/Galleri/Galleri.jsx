@@ -1,9 +1,11 @@
 import { iconCkal, iconStar, iconTime } from "images/icons"
-import { LineGalleriAll, WrapGalleriAll, WrapLineGalleriAll, WrapSlogan, WrapStar, WrapperCard, WrapperImg, WrapperSpan } from "./Galleri.styled"
+import { LineGalleriAll, WrapGalleriAll, WrapLineGalleriAll, WrapNamber, WrapSection, WrapSlogan, WrapStar, WrapperCard, WrapperImg, WrapperSpan } from "./Galleri.styled"
 import chak_b from "../../images/imgslides/chak-chak-b.jpg";
+
+
 export const GalleriAll = ()=>{
   return(
-    <>
+    <WrapSection>
       <WrapLineGalleriAll className="wrap-sectionPopular">
           <p>All</p>
           <LineGalleriAll className="sectionlinePopular"></LineGalleriAll>
@@ -35,7 +37,7 @@ export const GalleriAll = ()=>{
       magna egestas volutpat sollicitudin justo, nibh aliquam.
     </p>
 
-    <WrapSlogan>
+    <WrapSlogan className="wrap-slogan">
       <WrapStar className="wrap-star">
         {iconStar}
         {iconStar}
@@ -43,14 +45,14 @@ export const GalleriAll = ()=>{
         {iconStar}
         {iconStar}
       </WrapStar>
-      <div>
+      <WrapNamber className="wrap-namber">
         <p>234</p>
         <p className="sweets">Sweets</p>
-      </div>
+      </WrapNamber>
     </WrapSlogan>
   </WrapperCard>
         </WrapGalleriAll>
       
-    </>
+    </WrapSection>
   )
 }

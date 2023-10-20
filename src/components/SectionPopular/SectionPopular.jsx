@@ -10,7 +10,9 @@ import {
   WrapperContentCard,
   WrapperImg,
   WrapperSpan,
+  WrapNumber
 } from "./SectionPopular.styled";
+
 
 export const SectionPopular = () => {
   return (

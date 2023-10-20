@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+export const WrapSection = styled.div`
+/* display: flex; */
+    /* width: 100%;
+    align-items: center;
+    gap: 10px; */
+padding: 80px;
+`
+
 export const WrapGalleriAll = styled.div`
 width: 1176px;
   display: grid;
@@ -75,11 +83,19 @@ export const WrapStar = styled.div`
   align-items: center;
   margin-right:12px;
   
+  
+  
+`
+export const WrapNamber = styled.div`
+  
+  
 `
 export const WrapSlogan = styled.div`
+width: 100%;
   display: flex;
   align-items: center;
-  
+  justify-content: space-between;
+  margin-top: 15px;
   &>div{
     display: flex;
    

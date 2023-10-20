@@ -18,7 +18,7 @@ export const Content =()  => {
       <SectionPopularRecentlyAdded/>
       <SectionPopular/>
       <GalleriAll/>
-      <SectionPlan />
+      
       
     </ContentWrap>
       )

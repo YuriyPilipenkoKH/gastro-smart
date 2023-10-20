@@ -84,14 +84,19 @@ export const WrapperSpan = styled.div`
 `
 
 export const WrapStar = styled.div`
+width: 100%;
   display: flex;
-  align-items: center;
-  margin-right:12px;
+  align-items: start;
+ 
   
 `
 export const WrapSlogan = styled.div`
+width: 100%;
   display: flex;
   align-items: center;
+  margin-top: 49px;
+  justify-content: space-between;
+  
   
   &>div{
     display: flex;
