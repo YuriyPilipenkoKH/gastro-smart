@@ -1,7 +1,14 @@
 {
   "files": {
     "main.css": "/gastro-smart/static/css/main.04949aaa.css",
-    "main.js": "/gastro-smart/static/js/main.d04cab5c.js",
+    "main.js": "/gastro-smart/static/js/main.9a41fe92.js",
+    "static/js/53.b9981761.chunk.js": "/gastro-smart/static/js/53.b9981761.chunk.js",
+    "static/js/466.e939499e.chunk.js": "/gastro-smart/static/js/466.e939499e.chunk.js",
+    "static/js/183.96315bcc.chunk.js": "/gastro-smart/static/js/183.96315bcc.chunk.js",
+    "static/js/918.9875c1c2.chunk.js": "/gastro-smart/static/js/918.9875c1c2.chunk.js",
+    "static/js/355.4a538c7f.chunk.js": "/gastro-smart/static/js/355.4a538c7f.chunk.js",
+    "static/js/134.a617b7d5.chunk.js": "/gastro-smart/static/js/134.a617b7d5.chunk.js",
+    "static/js/856.2b8e39ad.chunk.js": "/gastro-smart/static/js/856.2b8e39ad.chunk.js",
     "static/media/cereal.jpg": "/gastro-smart/static/media/cereal.7c0618a44798ef8a301a.jpg",
     "static/media/fonMobileMenu.jpg": "/gastro-smart/static/media/fonMobileMenu.34bf4508797c4e1105a8.jpg",
     "static/media/meat.jpg": "/gastro-smart/static/media/meat.a442e7c0c89e66b2e173.jpg",
@@ -9,10 +16,17 @@
     "static/media/ssl.png": "/gastro-smart/static/media/ssl.5e7785a5c88b56d0a54b.png",
     "index.html": "/gastro-smart/index.html",
     "main.04949aaa.css.map": "/gastro-smart/static/css/main.04949aaa.css.map",
-    "main.d04cab5c.js.map": "/gastro-smart/static/js/main.d04cab5c.js.map"
+    "main.9a41fe92.js.map": "/gastro-smart/static/js/main.9a41fe92.js.map",
+    "53.b9981761.chunk.js.map": "/gastro-smart/static/js/53.b9981761.chunk.js.map",
+    "466.e939499e.chunk.js.map": "/gastro-smart/static/js/466.e939499e.chunk.js.map",
+    "183.96315bcc.chunk.js.map": "/gastro-smart/static/js/183.96315bcc.chunk.js.map",
+    "918.9875c1c2.chunk.js.map": "/gastro-smart/static/js/918.9875c1c2.chunk.js.map",
+    "355.4a538c7f.chunk.js.map": "/gastro-smart/static/js/355.4a538c7f.chunk.js.map",
+    "134.a617b7d5.chunk.js.map": "/gastro-smart/static/js/134.a617b7d5.chunk.js.map",
+    "856.2b8e39ad.chunk.js.map": "/gastro-smart/static/js/856.2b8e39ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04949aaa.css",
-    "static/js/main.d04cab5c.js"
+    "static/js/main.9a41fe92.js"
   ]
 }

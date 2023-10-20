@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgastro_smart=self.webpackChunkgastro_smart||[]).push([[918],{8918:function(r,s,e){e.r(s);e(2791);var t=e(184);s.default=function(){return(0,t.jsx)("div",{children:"UserPage"})}}}]);
+//# sourceMappingURL=918.9875c1c2.chunk.js.map
