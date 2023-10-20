@@ -41,7 +41,7 @@ function getNextSubarray() {
 }
 
 return (
-  <SliderWrapper>
+  <SliderWrapper className="SliderWrapper">
       <ArrowButton 
       className="Previous"
       onClick={goToPrevious}>
@@ -53,17 +53,17 @@ return (
           <MdArrowForwardIos size={40}/>
       </ArrowButton>
       <CardSlide 
+      className='CardSlide'
       slides={slides}
       slideIndex={indexArray[0]} />
       <CardSlide 
+      className='CardSlide'
       slides={slides}
       slideIndex={indexArray[1]} />
-      <CardSlide 
+      <CardSlide
+      className='CardSlide' 
       slides={slides}
       slideIndex={indexArray[2]} />
-      {/* <img src={slides[indexArray[0]].url_img_b} alt="slideImage" />
-      <img src={slides[indexArray[1]].url_img_b} alt="slideImage" />
-      <img src={slides[indexArray[2]].url_img_b} alt="slideImage" /> */}
 
   </SliderWrapper>
 )

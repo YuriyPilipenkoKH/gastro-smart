@@ -5,7 +5,7 @@ export const LabelSearch = styled.label`
   position: relative;
   font-size: 32px;
   font-weight: bold;
-  margin-top: 48px;
+
   
   &>span{
     position: absolute;
@@ -16,6 +16,9 @@ export const LabelSearch = styled.label`
     color: #0D5D81;
   }
 `
+export const SearchSection = styled.div`
+  padding: 50px 0;
+`
 export const WrapSearch = styled.div`
 position: relative;
 display:flex;
@@ -25,7 +28,7 @@ width: 1186px;
   margin-top: 16px;
   border: 1px solid #B9C7D2;
   border-radius: 4px;
-  margin-bottom: 56px;
+
   
   &>button.search-cross{
     position: absolute;

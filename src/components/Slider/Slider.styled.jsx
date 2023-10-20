@@ -3,8 +3,9 @@ import styled from 'styled-components';
 export const SliderWrapper = styled.div`
     position: relative;
     /* width: 376px; */
-    height: 494px;
+    height: 550px;
     display: flex;
+    align-items: center;
     gap: 20px;
     &>img {
     width: 376px;

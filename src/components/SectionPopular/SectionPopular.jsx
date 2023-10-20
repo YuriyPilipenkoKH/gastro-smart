@@ -10,7 +10,6 @@ import {
   WrapperContentCard,
   WrapperImg,
   WrapperSpan,
-  WrapNumber
 } from "./SectionPopular.styled";
 
 

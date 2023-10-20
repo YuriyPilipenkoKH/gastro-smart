@@ -28,14 +28,4 @@ export const SectionPopularRecentlyAdded = () => {
     </>
   );
 };
-{
-  /* <div>
-        <p>Popular</p>
-        <Line></Line>
-      </div> */
-}
 
-//   <div  className="wrap-line">
-//   <p>Recently added</p>
-//   <Line></Line>
-// </div>

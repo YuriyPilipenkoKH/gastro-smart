@@ -8,7 +8,7 @@ export default function Home() {
 
     return (
       <HomeWrapper  >
-       <Content/>
+       <Content className ='Content'/>
         <SectionPlan/>
       </HomeWrapper>
     );

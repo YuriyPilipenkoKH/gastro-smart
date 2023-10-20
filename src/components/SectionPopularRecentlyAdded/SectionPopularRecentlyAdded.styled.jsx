@@ -12,6 +12,7 @@ export const WrapText = styled.div`
   grid-template-columns: 376px 376px 376px;
   gap:27px;
   margin-bottom:16px;
+  padding-top: 80px;
   &>div {
     width: 373px;
     height: 21px;

@@ -1,5 +1,5 @@
 import { iconTime, iconCkal } from "images/icons";
-import { Line, Wrap, WrapSlogan, WrapperCard, WrapperSpan } from "./CardRecentlyAdded.styled";
+import {  Wrap, WrapSlogan, WrapperCard, WrapperSpan } from "./CardRecentlyAdded.styled";
 import chak_s from "../../images/imgslides/chak-chak-s.jpg";
 export const CardRecentlyAdded = () => {
   return (
@@ -85,10 +85,7 @@ export const CardRecentlyAdded = () => {
             </p>
           </WrapSlogan>
         </Wrap>
-      
-      
-
-      
+                 
     </WrapperCard>
   );
 };

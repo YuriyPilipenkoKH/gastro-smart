@@ -12,16 +12,15 @@ import recipes from '../../json/recipes.json'
 
 export const Content =()  => {
     return (
-    <ContentWrap>
-      <SearchRecipes />
-      <Slider slides={recipes}/>
-      <LineDishes />
-      <SectionPopularRecentlyAdded/>
-      <SectionPopular/>
-      <GalleriAll/>
-      
-      
-      
+    <ContentWrap className="ContentWrap">
+      <SearchRecipes  className='SearchRecipes'/>
+      <Slider 
+        className='Slider' 
+        slides={recipes}/>
+      <LineDishes  className='LineDishes'/>
+      <SectionPopularRecentlyAdded className='SectionPopularRecentlyAdded'/>
+      <SectionPopular className='SectionPopular'/>
+      <GalleriAll className='GalleriAll'/>
     </ContentWrap>
       )
 }

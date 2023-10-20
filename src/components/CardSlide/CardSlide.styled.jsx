@@ -6,8 +6,6 @@ export const StyledCardSlide = styled(Link)`
   position: relative;  
   width: 376px;
   height: 494px;
-  margin-top: 74px;
-  margin-bottom:24px;
 `;
 
 export const ImgSlide = styled.img`
