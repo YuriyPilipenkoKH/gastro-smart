@@ -6,22 +6,23 @@ export const Section = styled.section`
 width: 100%;
 height: 376px;
 background-color: #F3F8FC;
-
+padding: 60px;
+display: grid;
+gap: 20px;
 `
 export const SectionFooterTitle = styled.h2`
 font-size: 32px;
 font-weight: 600;
 line-height: 40.16px;
 text-align: center;
-margin-top:72px;
-margin-bottom:16px;
+
 `
 export const SectionFooterText = styled.p`
 font-size: 16px;
 font-weight: 400;
 line-height: 20.08px;
 text-align: center;
-margin-bottom:44px;
+
   
 `
 export const SectionFooterCaption = styled.p`
@@ -29,7 +30,7 @@ font-size: 16px;
 font-weight: 600;
 line-height: 20.08px;
 text-align: center;
-margin-bottom:44px;
+
   
 `
 export const SectionFooterButton = styled(StyledButton)`

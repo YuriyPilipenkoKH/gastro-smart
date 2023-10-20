@@ -1,7 +1,8 @@
 import isPropValid from "@emotion/is-prop-valid";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export const StyledCardSlide = styled.div`
+export const StyledCardSlide = styled(Link)`
   position: relative;  
   width: 376px;
   height: 494px;
@@ -25,7 +26,7 @@ position: absolute;
 bottom: 16px;
 left: 16px;
 width: 344px;
-height:  ${({ isOpen }) => isOpen ?  "240px" : "139px"};
+height:  ${({ isOpen }) => isOpen ?  "380px" : "150px"};
 background-color: #fff;
 padding: 20px;
 border-radius: 4px;
@@ -49,6 +50,10 @@ export const TimeWrapp = styled.div`
     display: flex;
     gap: 12px;
 
+`;
+export const TextWrapp = styled.div`
+    height: 130px;
+    overflow: hidden;
 `;
 
 export const RecipeTime = styled.div`

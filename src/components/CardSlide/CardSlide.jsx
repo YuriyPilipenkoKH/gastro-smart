@@ -1,11 +1,8 @@
-import { HiddenText, ImgSlide, Rating, RecipeDescription, RecipeTime, StarsWrapp, StyledCardSlide, TimeWrapp } from "./CardSlide.styled"
-import img1 from '../../images/slider/pancake.jpg'
-// import img2 from '../../images/slider/meat.jpg'
-// import img3 from '../../images/slider/cereal.jpg'
+import { HiddenText, ImgSlide, Rating, RecipeDescription, RecipeTime, StarsWrapp, StyledCardSlide, TextWrapp, TimeWrapp } from "./CardSlide.styled"
 import { iconCalories, iconStar, iconTime } from "images/icons"
 import { useState } from "react"
 
-const CardSlide = () => {
+const CardSlide = ({slides, slideIndex}) => {
     const [isOpen, setIsOpen] = useState(false)
     const openList =() => {
         setIsOpen ( true)
@@ -17,26 +14,29 @@ const CardSlide = () => {
   return (
     <StyledCardSlide >
         <ImgSlide 
-        src={img1}
-        alt="Recipes Picture"
+        src={slides[slideIndex].url_img_b}
+        alt="Recipe Picture"
         />
 
         <RecipeDescription
         onMouseOver={openList}
         onMouseOut = {closeList}
         isOpen={isOpen}>
+            <h3> {slides[slideIndex].title_recipes}</h3>  
         <TimeWrapp>
             <RecipeTime>
                 {iconTime}
-                30 minutes
+                {slides[slideIndex].cooking_time} minutes
             </RecipeTime>
             <RecipeTime>
                 {iconCalories}
-                716 kcal
+                {slides[slideIndex].kilocalories} kcal
             </RecipeTime>
         </TimeWrapp>
-        <p>The Cutest Roundest Pancake Balls You’ll Ever Make and Eat: Danish Aebleskiver
-              </p>
+        <TextWrapp>
+            <p>{slides[slideIndex].description_recipes.replace("Описание приготовления:", "")}
+                  </p>
+        </TextWrapp>
 
               <HiddenText >
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus magna egestas.</p>

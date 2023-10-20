@@ -116,3 +116,11 @@ export const Gallery = styled.ul`
       grid-template-columns: repeat(4, 1fr);
     }
 `
+export const LogWrapper = styled.div`
+  display: grid;
+  place-items: center;
+  height: 600px;
+  width: 100%;
+  padding: 60px 0;
+  background-color: #F3F8FC;
+`

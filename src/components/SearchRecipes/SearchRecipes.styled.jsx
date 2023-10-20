@@ -2,12 +2,22 @@ import styled from "styled-components";
 import { StyledButton } from 'components/Button/Button.styled';
 
 export const LabelSearch = styled.label`
+  position: relative;
   font-size: 32px;
   font-weight: bold;
   margin-top: 48px;
   
+  &>span{
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0D5D81;
+  }
 `
 export const WrapSearch = styled.div`
+position: relative;
 display:flex;
 align-items: center;
 justify-content: space-between;
@@ -17,6 +27,11 @@ width: 1186px;
   border-radius: 4px;
   margin-bottom: 56px;
   
+  &>button.search-cross{
+    position: absolute;
+    right: 170px;
+    top: 12px;
+  }
 `
 export const InputSearch = styled.input`
 width: 1186px;
@@ -24,6 +39,7 @@ height: 56px;
 border: none;
 outline: none;
 padding-left:16px;
+font-size: 16px;
 &::placeholder {
     padding: 0 16px 16px 24px;
   }

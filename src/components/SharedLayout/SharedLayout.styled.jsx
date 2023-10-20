@@ -81,13 +81,14 @@ display: grid;
 align-items: center;
 gap: 8px;
 
-&>button.loginBtn {
+
+&>a.loginBtn,
+&>button.logoutBtn{
   justify-self: end;
   font-size: 20px;
   font-weight: 600;
   color: #FF865E;
 }
-
 `
 
 
