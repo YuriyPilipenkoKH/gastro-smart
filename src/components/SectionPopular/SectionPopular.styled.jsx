@@ -1,4 +1,28 @@
-import styled from "styled-components";
+import styled from "styled-components"
+
+export const WrapSection = styled.div`
+/* display: flex; */
+    /* width: 100%;
+    align-items: center;
+    gap: 10px; */
+padding: 80px;
+`
+
+export const WrapLineSectionPopular = styled.div`
+display: flex;
+    width: 1176px;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+
+`
+export const LineSectionPopular = styled.div`
+   width: 100%;
+  height: 4px;
+  
+  border-top: 1px solid #D2DDE6;
+  border-bottom: 1px solid #D2DDE6;
+`
 
 export const Wrapper = styled.div`
 width: 1176px;
@@ -6,13 +30,24 @@ width: 1176px;
   grid-template-columns: 376px auto 376px;
   gap:27px;
 `
+
+
 export const WrapperCard = styled.div`
+width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+`
+
+export const WrapperContentCard = styled.div`
+width: 500px;
   display: flex;
   flex-direction: column;
   gap:16px;
   align-items: start;
+  justify-content: center;
     
-
   &> div {
   display: flex;
   align-items: center;
@@ -31,7 +66,7 @@ gap:10px;
 export const WrapperImg = styled.div`
    &> img{
     border-radius:4px;
-    height:281px;
+    height:425px;
    }
 `
 export const WrapperSpan = styled.div`
@@ -49,14 +84,19 @@ export const WrapperSpan = styled.div`
 `
 
 export const WrapStar = styled.div`
+width: 100%;
   display: flex;
-  align-items: center;
-  margin-right:12px;
+  align-items: start;
+ 
   
 `
 export const WrapSlogan = styled.div`
+width: 100%;
   display: flex;
   align-items: center;
+  margin-top: 49px;
+  justify-content: space-between;
+  
   
   &>div{
     display: flex;

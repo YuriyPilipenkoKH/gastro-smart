@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export const Section = styled.section`
 width: 100%;
-height: 377px;
+height: 376px;
 background-color: #F3F8FC;
 padding: 60px;
 display: grid;

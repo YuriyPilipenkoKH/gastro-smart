@@ -25,6 +25,7 @@ width: 1186px;
   margin-top: 16px;
   border: 1px solid #B9C7D2;
   border-radius: 4px;
+  margin-bottom: 56px;
   
   &>button.search-cross{
     position: absolute;

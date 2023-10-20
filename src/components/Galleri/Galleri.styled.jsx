@@ -1,5 +1,35 @@
 import styled from "styled-components";
 
+export const WrapSection = styled.div`
+/* display: flex; */
+    /* width: 100%;
+    align-items: center;
+    gap: 10px; */
+padding: 80px;
+`
+
+export const WrapGalleriAll = styled.div`
+width: 1176px;
+  display: grid;
+  grid-template-columns: 376px 376px 376px;
+  gap:27px;
+`
+export const WrapLineGalleriAll = styled.div`
+display: flex;
+    width: 1176px;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+
+`
+export const LineGalleriAll = styled.div`
+   width: 100%;
+  height: 4px;
+  
+  border-top: 1px solid #D2DDE6;
+  border-bottom: 1px solid #D2DDE6;
+`
+//++++++++++++++++++++++++++++++++++++
 export const Wrapper = styled.div`
 width: 1176px;
   display: grid;
@@ -31,7 +61,7 @@ gap:10px;
 export const WrapperImg = styled.div`
    &> img{
     border-radius:4px;
-    height:281px;
+    height:286px;
    }
 `
 export const WrapperSpan = styled.div`
@@ -53,11 +83,19 @@ export const WrapStar = styled.div`
   align-items: center;
   margin-right:12px;
   
+  
+  
+`
+export const WrapNamber = styled.div`
+  
+  
 `
 export const WrapSlogan = styled.div`
+width: 100%;
   display: flex;
   align-items: center;
-  
+  justify-content: space-between;
+  margin-top: 15px;
   &>div{
     display: flex;
    

@@ -1,6 +1,8 @@
 import { Suspense, useState } from "react";
 import { Link, Outlet} from 'react-router-dom';
 import { ContactsWrapp, MainHeader, NavigationWrapp} from "./SharedLayout.styled";
+
+
 import { logoGastroSmart } from "images/icons";
 import { Navigation } from "components/Navigation/Navigation";
 import { AppBar } from "components/AppBar/AppBar";
