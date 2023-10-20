@@ -46,23 +46,7 @@ display: flex;
   }
 
  }
-  /* @media screen and (min-width: 768px) { */
-    /* display: none;
-    }
 
-     /* &> svg {
-        transition:  all 1s ease-in-out;
-        color: var(--text-color);
-        scale: 2;
-        } */
-
-    /* &:hover{
-        background-color: #eee5;
-        &> svg {
-            transition:  all 1s ease-in-out;
-            fill:  ${({ theme }) => theme === 'light' ? "var(--white)" : "var(--black)"};
-        }
-    } */
     } 
 
 
