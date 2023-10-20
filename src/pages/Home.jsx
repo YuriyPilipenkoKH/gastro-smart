@@ -8,9 +8,8 @@ export default function Home() {
 
     return (
       <HomeWrapper  >
-        <Content/>
+       <Content/>
         <SectionPlan/>
-       
       </HomeWrapper>
     );
   }
