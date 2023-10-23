@@ -70,6 +70,6 @@ export const ErrorWrap = styled.p`
     color: crimson;
     position: absolute;
     bottom: -16px;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 500;
 `

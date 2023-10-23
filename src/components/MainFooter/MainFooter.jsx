@@ -22,6 +22,7 @@ import cloud from "../../images/brands/cloud.png";
 import ssl from "../../images/brands/ssl.png";
 import germany from "../../images/brands/germany.png";
 import support from "../../images/brands/support.png";
+import { Link } from "react-router-dom";
 
 
 
@@ -31,62 +32,62 @@ export const MainFooter = () => {
       <Wrapper>
         <List className="list">
           <li className="item">
-            <a className="link">Kurfürstendamm 54 10707 Berlin</a>
+            <Link className="link">Kurfürstendamm 54 10707 Berlin</Link>
           </li>
           <li className="item">
-            <a className="link" href="tel:+493091449144">
+            <Link className="link" href="tel:+493091449144">
               <span className="span">Tel:</span> +49 30 9144 9144
-            </a>
+            </Link>
           </li>
           <li className="item">
-            <a className="link" href="fax:+493091449144">
+            <Link className="link" href="fax:+493091449144">
               <span className="span">Fax:</span> +49 30 897 24 165
-            </a>
+            </Link>
           </li>
           <li className="item">
-            <a className="link" href="mailto:info@gastro-smart.com">
+            <Link className="link" href="mailto:info@gastro-smart.com">
               <span className="span">E-Mail:</span> info@gastro-smart.com
-            </a>
+            </Link>
           </li>
           <li className="item">
-            <a className="link">Impressum</a>
+            <Link className="link">Impressum</Link>
           </li>
         </List>
         <SocialLogos className="social-logos">
           <p>Folge uns:</p>
           <WrapperLogos className="wrapper-logos">
             <li>
-              <a href="">{iconShare}</a>
+              <Link>{iconShare}</Link>
             </li>
             <li>
-              <a href="">{iconTwitter}</a>
+              <Link>{iconTwitter}</Link>
             </li>
             <li>
-              <a href="">{iconYoutube}</a>
+              <Link>{iconYoutube}</Link>
             </li>
           </WrapperLogos>
         </SocialLogos>
         <WrapBrands className="wrap-brands">
           <ul>
             <li>
-              <a href="">
+              <Link>
                 <img className="img-ssl" src={ssl} alt=""></img>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="">
+              <Link>
                 <img src={germany} alt=""></img>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="">
+              <Link>
                 <img src={support} alt=""></img>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="">
+              <Link>
                 <img src={cloud} alt=""></img>
-              </a>
+              </Link>
             </li>
           </ul>
           <Wrap className="wrap">
@@ -94,9 +95,9 @@ export const MainFooter = () => {
             
             <WrapperStar className="wrapper-star">
               <div>
-                <a className="wrapper-google">
+                <Link className="wrapper-google">
                   {googleLogo}
-                </a>
+                </Link>
                 <WrapStarGoogle className="wrap-star__google">
                   <p>Reviews</p>
                   {iconStar}

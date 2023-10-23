@@ -7,70 +7,68 @@ import {FaEye, FaEyeSlash} from 'react-icons/fa';
 // import { useDispatch } from "react-redux"
 // import logIn  from '../../redux/auth/authOperations';
 import { useForm } from "react-hook-form"
+import { DevTool } from "@hookform/devtools"
 
 
 const LoginForm = () => {
+    const [show, setShow] = useState(false);
     const {
         register,
         handleSubmit,
-        watch,
-        formState: { errors }
+        control,
+        formState,
     } = useForm({
         defaultValues: {
             name: '',
             password: '',
         },
+        mode:'all',
     })
-    const [show, setShow] = useState(false);
-    // const dispatch = useDispatch();
-    const [name, setName] = useState('');
-    // const [isNameValid, setIsNameValid] = useState(false);
-    const [password, setPassword] = useState('');
-    console.log(watch('name'))
+    const {
+        errors,
+        // touchedFields,
+        // dirtyFields,
+        isDirty,
+        // isValid
+    } = formState
 
-    const onChangeName  = (e) => {
-        // const isValid = /^[a-zA-Z]{2,16}$/.test(
-        //             e.target.value
-        //         );
-                // setIsNameValid(isValid);
-                setName(e.target.value);
-                // if (isValid) {
-                //     errors.name = undefined;
-                // }                
-    }
-    const onChangePassword  = (e) => {
-        setPassword(e.target.value);
-    }
+
         
-          const onSubmit = e => {
-            console.log(name, password)
+    const onSubmit = data => {
+            console.log(data)
             // dispatch(logIn({ name, password }));
-            setName('');
-            setPassword('');
-          };
+
+    };
+
+    const onError = errors => {
+        console.log('Form errors', errors)
+    };
         
   return (
     <FormContainer>
-        <StyledForm onSubmit={handleSubmit(onSubmit)}  autoComplete="on">
+        <StyledForm 
+        onSubmit={handleSubmit(onSubmit, onError)}  noValidate>
             <h2>Login</h2>
             <FormLabel > Name
                 <FormInput 
             {...register('name', {
                 required:'Name is required',
                 minLength:{
-                    value: 4,
-                    message: 'Minimum length is 4'
+                    value: 2,
+                    message: 'Minimum length is 2'
                 },
                 pattern: {
                     value: /^[a-zA-Z]{2,16}$/,
                     message: 'Name should contain only letters'
+                },
+                validate: (fieldValue) => {
+                    return (
+                        fieldValue.toLowerCase() !== 'jonny' || 'Enter a different name'
+                    )
                 }
-            })}   
+            }) }   
          
            type="text"
-           name="name"
-            value={name} 
-            onChange={onChangeName}
             errors={errors.name}
             />
             {errors?.name && (
@@ -80,11 +78,29 @@ const LoginForm = () => {
 
             <FormLabel > Password
                 <FormInput
+                {...register('password', {
+                    required:'Password is required',
+                    minLength:{
+                        value: 6,
+                        message: 'Minimum length is 6'
+                    },
+                    pattern: {
+                        value: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{6,16}$/,
+                        message: 'Include capital letters and numbers'
+                    },
+                    validate: (fieldValue) => {
+                        return (
+                            fieldValue.toLowerCase() !== 'qwe123' ||
+                             'Enter a different password'
+                        )
+                    }
+                }) }  
                             type={show ? 'text' : 'password'}
-                            name="password"
-                            value={password}
-                            onChange={onChangePassword}
+                            errors={errors.password}
                             />
+                {errors?.password && (
+                <ErrorWrap>{errors.password.message}</ErrorWrap>
+            )}
 
                 <FlatButton 
             type='button' 
@@ -95,12 +111,15 @@ const LoginForm = () => {
             </FormLabel>
         <Button 
         type='submit'
-        className='LogBtn'>Submit</Button>
+        className='LogBtn'
+        disabled={!isDirty } 
+        >Submit</Button>
         <RegLink>Don't have an account?
              <Link  to="/register">Register</Link>
         </RegLink>
 
         </StyledForm>
+        <DevTool control={control}/>
         <FormBG photo={bgImage}></FormBG>
     </FormContainer>
   )
