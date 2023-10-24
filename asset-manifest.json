@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/gastro-smart/static/css/main.04949aaa.css",
-    "main.js": "/gastro-smart/static/js/main.9a41fe92.js",
-    "static/js/53.b9981761.chunk.js": "/gastro-smart/static/js/53.b9981761.chunk.js",
-    "static/js/466.e939499e.chunk.js": "/gastro-smart/static/js/466.e939499e.chunk.js",
-    "static/js/183.96315bcc.chunk.js": "/gastro-smart/static/js/183.96315bcc.chunk.js",
+    "main.js": "/gastro-smart/static/js/main.12de497b.js",
+    "static/js/354.eb36d0cd.chunk.js": "/gastro-smart/static/js/354.eb36d0cd.chunk.js",
+    "static/js/466.5447c9a9.chunk.js": "/gastro-smart/static/js/466.5447c9a9.chunk.js",
+    "static/js/183.b8ada71d.chunk.js": "/gastro-smart/static/js/183.b8ada71d.chunk.js",
     "static/js/918.9875c1c2.chunk.js": "/gastro-smart/static/js/918.9875c1c2.chunk.js",
-    "static/js/355.4a538c7f.chunk.js": "/gastro-smart/static/js/355.4a538c7f.chunk.js",
-    "static/js/134.a617b7d5.chunk.js": "/gastro-smart/static/js/134.a617b7d5.chunk.js",
+    "static/js/332.714f6973.chunk.js": "/gastro-smart/static/js/332.714f6973.chunk.js",
     "static/js/856.2b8e39ad.chunk.js": "/gastro-smart/static/js/856.2b8e39ad.chunk.js",
     "static/media/cereal.jpg": "/gastro-smart/static/media/cereal.7c0618a44798ef8a301a.jpg",
     "static/media/fonMobileMenu.jpg": "/gastro-smart/static/media/fonMobileMenu.34bf4508797c4e1105a8.jpg",
@@ -16,17 +15,16 @@
     "static/media/ssl.png": "/gastro-smart/static/media/ssl.5e7785a5c88b56d0a54b.png",
     "index.html": "/gastro-smart/index.html",
     "main.04949aaa.css.map": "/gastro-smart/static/css/main.04949aaa.css.map",
-    "main.9a41fe92.js.map": "/gastro-smart/static/js/main.9a41fe92.js.map",
-    "53.b9981761.chunk.js.map": "/gastro-smart/static/js/53.b9981761.chunk.js.map",
-    "466.e939499e.chunk.js.map": "/gastro-smart/static/js/466.e939499e.chunk.js.map",
-    "183.96315bcc.chunk.js.map": "/gastro-smart/static/js/183.96315bcc.chunk.js.map",
+    "main.12de497b.js.map": "/gastro-smart/static/js/main.12de497b.js.map",
+    "354.eb36d0cd.chunk.js.map": "/gastro-smart/static/js/354.eb36d0cd.chunk.js.map",
+    "466.5447c9a9.chunk.js.map": "/gastro-smart/static/js/466.5447c9a9.chunk.js.map",
+    "183.b8ada71d.chunk.js.map": "/gastro-smart/static/js/183.b8ada71d.chunk.js.map",
     "918.9875c1c2.chunk.js.map": "/gastro-smart/static/js/918.9875c1c2.chunk.js.map",
-    "355.4a538c7f.chunk.js.map": "/gastro-smart/static/js/355.4a538c7f.chunk.js.map",
-    "134.a617b7d5.chunk.js.map": "/gastro-smart/static/js/134.a617b7d5.chunk.js.map",
+    "332.714f6973.chunk.js.map": "/gastro-smart/static/js/332.714f6973.chunk.js.map",
     "856.2b8e39ad.chunk.js.map": "/gastro-smart/static/js/856.2b8e39ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04949aaa.css",
-    "static/js/main.9a41fe92.js"
+    "static/js/main.12de497b.js"
   ]
 }
