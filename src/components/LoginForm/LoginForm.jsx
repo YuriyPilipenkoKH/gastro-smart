@@ -2,7 +2,7 @@ import { ErrorWrap, FormBG, FormContainer, FormInput, FormLabel, RegLink, Styled
 import bgImage from '../../images/slider/meat.jpg'
 import { Button, FlatButton } from "components/Button/Button"
 import { Link } from "react-router-dom"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import {FaEye, FaEyeSlash} from 'react-icons/fa';
 // import { useDispatch } from "react-redux"
 // import logIn  from '../../redux/auth/authOperations';
@@ -17,6 +17,7 @@ const LoginForm = () => {
         handleSubmit,
         control,
         formState,
+        reset,
     } = useForm({
         defaultValues: {
             name: '',
@@ -26,13 +27,16 @@ const LoginForm = () => {
     })
     const {
         errors,
-        // touchedFields,
-        // dirtyFields,
         isDirty,
-        // isValid
+        isValid ,
+        isSubmitSuccessful,
     } = formState
 
-
+    useEffect(() => {
+        if(isSubmitSuccessful) {
+            reset()
+        }
+    }, [isSubmitSuccessful, reset])
         
     const onSubmit = data => {
             console.log(data)
@@ -58,8 +62,8 @@ const LoginForm = () => {
                     message: 'Minimum length is 2'
                 },
                 pattern: {
-                    value: /^[a-zA-Z]{2,16}$/,
-                    message: 'Name should contain only letters'
+                    value: /^[a-zA-Z0-9]{2,20}$/,
+                    message: 'Name is not valid'
                 },
                 validate: (fieldValue) => {
                     return (
@@ -112,7 +116,7 @@ const LoginForm = () => {
         <Button 
         type='submit'
         className='LogBtn'
-        disabled={!isDirty } 
+        disabled={!isDirty || !isValid } 
         >Submit</Button>
         <RegLink>Don't have an account?
              <Link  to="/register">Register</Link>
